@@ -1,6 +1,6 @@
 # MapClassifier
 
-A real-time osu! beatmap analysis overlay. Hooks into the osu! process to detect your selected map and displays key stats — BPM, note density, jump distance, stream info — alongside a difficulty graph that plots section-by-section star ratings coloured by pattern type (streams, jumps, tech), powered by osu!'s own difficulty algorithm.
+A real-time osu! beatmap analysis overlay. Hooks into the osu! process to detect your selected map and displays key stats: BPM, note density, jump distance, stream info alongside a difficulty graph that plots section-by-section star ratings coloured by pattern type (streams, jumps, tech), powered by osu!'s own difficulty algorithm.
 
 ## Requirements
 

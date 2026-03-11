@@ -389,12 +389,12 @@ def compute_strain_sections(path: str, bm=None) -> list[dict]:
                 ad  = nf["avg_distance"]
                 dcf = nf["dir_change_freq"]
 
-                if sr > 0.45:
+                if dcf > 0.35:
+                    pattern, color = "tech",   "#ffd54f"
+                elif sr > 0.45:
                     pattern, color = "stream", "#ff6b6b"
                 elif ad > 150:
                     pattern, color = "jump",   "#4fc3f7"
-                elif dcf > 0.35:
-                    pattern, color = "tech",   "#ffd54f"
                 else:
                     pattern, color = "stream", "#ff6b6b"
             else:

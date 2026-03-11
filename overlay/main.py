@@ -14,15 +14,17 @@ import queue
 import sys
 from pathlib import Path
 
-# Ensure the overlay directory is on sys.path so detector/gui are importable
-# both when running from source and inside a PyInstaller bundle.
+# In a PyInstaller bundle, overlay/ is packed as the overlay package so
+# detector and gui must be imported as overlay.detector / overlay.gui.
+# When running from source, they live alongside this file and are imported directly.
 if getattr(sys, "frozen", False):
     sys.path.insert(0, sys._MEIPASS)
+    from overlay.detector import MapDetector
+    from overlay.gui import OverlayWindow
 else:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-
-from detector import MapDetector
-from gui import OverlayWindow
+    from detector import MapDetector
+    from gui import OverlayWindow
 
 
 def main() -> None:

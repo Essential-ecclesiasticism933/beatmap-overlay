@@ -11,7 +11,7 @@ A real-time osu! beatmap analysis overlay. Hooks into the osu! process to detect
 
 ### Executable (recommended)
 
-Download the latest `MapClassifier.exe` from [Releases](https://github.com/roshan-3/beatmap-overlay/releases). No Python required — just run it.
+Download the latest `MapClassifier.exe` from [Releases](https://github.com/roshan-3/beatmap-overlay/releases).
 
 ### From source
 

@@ -336,7 +336,7 @@ def compute_strain_sections(path: str) -> list[dict]:
 
             # Pattern from aim/speed ratio
             if comb < max_comb * 0.04:
-                pattern, color = "flow",   "#81c784"   # break / silent
+                pattern, color = "stream", "#ff6b6b"   # break / silent
             elif spd > 0 and aim / (spd + 1e-9) < 0.45:
                 pattern, color = "stream", "#ff6b6b"   # speed dominant
             elif aim > 0 and spd / (aim + 1e-9) < 0.45:
@@ -344,7 +344,7 @@ def compute_strain_sections(path: str) -> list[dict]:
             elif comb > max_comb * 0.65:
                 pattern, color = "tech",   "#ffd54f"   # both high
             else:
-                pattern, color = "flow",   "#81c784"
+                pattern, color = "stream", "#ff6b6b"
 
             sections.append({
                 "t_start":     float(i * sec_ms),

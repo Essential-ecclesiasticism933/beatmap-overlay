@@ -37,10 +37,7 @@ GRAPH_BG  = "#0a0a15"
 COL_STREAM = "#ff6b6b"
 COL_JUMP   = "#4fc3f7"
 COL_TECH   = "#ffd54f"
-COL_FLOW   = "#81c784"
-
-_LEGEND = [("stream", COL_STREAM), ("jump", COL_JUMP),
-           ("tech",   COL_TECH),   ("flow", COL_FLOW)]
+_LEGEND = [("stream", COL_STREAM), ("jump", COL_JUMP), ("tech", COL_TECH)]
 
 # ── feature rows: (label, feature_key, format_string) ────────────────────────
 _ROWS: list[tuple[str, str, str]] = [

@@ -49,7 +49,7 @@ python classify.py maps/ --out results.json --pretty
 
 ## Known Limitations
 
-- **Pattern classification accuracy**: Stream, jump, and tech labels are based on note-level heuristics (stream gap, jump distance, direction change frequency). They give a reasonable approximation but won't always match how a map actually feels to play.
+- **Pattern classification accuracy**: Stream, jump, and tech labels are based on note-level heuristics (stream gap, jump distance, direction change frequency). They give a reasonable approximation but won't always match how a map actually feels to play. Classification accuracy needs heavy improvement but lots of feedback is necessary.
 
 - **Skillset coverage**: The overlay currently represents aim and speed (streams/jumps/tech). Skillsets like reading, finger control, and consistency are not measured.
 

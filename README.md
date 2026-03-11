@@ -49,8 +49,8 @@ python classify.py maps/ --out results.json --pretty
 
 ## Intended Future Features
 
-- **More Customizability in terms of metrics being displayed and overall aesthetic appearance**
-- **Smoother animations**
-- **Better pattern recognition accuracy**
-- **More skillset coverage (reading, finger control, consistency, etc)**
-- **Better performance on lower end PCs**
+- More Customizability in terms of metrics being displayed and overall aesthetic appearance
+- Smoother animations
+- Better pattern recognition accuracy
+- More skillset coverage (reading, finger control, consistency, etc)
+- Better performance on lower end PCs

